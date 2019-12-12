@@ -1,11 +1,11 @@
-# TeamGo
+# TeamGo Events Categorization
 
-File descriptions:
+## File descriptions:
 1) Activities.csv : Contains the list of activities and some of the keywords to look for in the event. This file could be updated as and when we get more events.
 2) Script.py: Python Script which parses the eventbrite json file (), categorizes the events and gives the output.
 3) Output.csv: Output file with events and their respective categories.
 
-Procedure:
+## Procedure:
 1) Collected the data from the [Github repo](https://github.com/go-inc/data-collection-exercise).
 2) Developed a python script to parse the json file from the previous step.
 3) In the same script, read the activities file for reference on how to categorize the events.
