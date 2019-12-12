@@ -12,5 +12,5 @@ Procedure:
 4) Created dummy variables for each event row, based on whether they contained any of the keywords from the activities file.
 5) Used these dummy variables to create a category column. Some events could be categorized into two categories. For ex., an event such as 'gather and cook food with friends', would be categorized in 'Cooking' as well as 'Social'. In that case, The categories will be mentioned in the 'Category' column separated by commas.
 6) Script outputs the Output.csv. The input file name could be changed as per requirement. 
-7) As the events data grows we could incorporate Machine learning algorithm. It could be as simple as 'Naive Bayes' or 'Random Forests' for better and robust classification. 
+7) Although this is scalable, I understand this is a Naive approach. However, as the events data grows we could incorporate Machine learning algorithm. It could be as simple as 'Naive Bayes' or 'Random Forests' for better and robust classification. It would not need many changes as I already have created dummy variables in this approach.
 
