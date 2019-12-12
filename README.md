@@ -6,7 +6,7 @@ File descriptions:
 3) Output.csv: Output file with events and their respective categories.
 
 Procedure:
-1) Collected the data from the (Github repo)[https://github.com/go-inc/data-collection-exercise].
+1) Collected the data from the [Github repo](https://github.com/go-inc/data-collection-exercise).
 2) Developed a python script to parse the json file from the previous step.
 3) In the same script, read the activities file for reference on how to categorize the events.
 4) Created dummy variables for each event row, based on whether they contained any of the keywords from the activities file.
